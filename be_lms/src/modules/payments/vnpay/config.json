@@ -1,0 +1,11 @@
+{
+    "payment": {
+        "vnpay": {
+            "tmnCode": "7R6X1FAH",
+            "secureSecret": "RMS57KWI2MMSN6ELUS3ZT3C9T4QZTN7A",
+            "api_Host": "https://sandbox.vnpayment.vn",
+            "testMode": true,
+            "hashAlgorithm": "SHA512"
+        }
+    }
+}

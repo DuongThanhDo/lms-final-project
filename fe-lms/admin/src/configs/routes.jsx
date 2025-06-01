@@ -1,0 +1,16 @@
+export const routes = {
+    dashboard: '/',
+    login: '/login',
+    changePassword: '/change-password',
+    profile: '/profile',
+    users: '/users',
+    courses: '/courses',
+    center: '/center',
+    viewCourse: '/courses/view/:id',
+    lectureCourse: '/courses/:courseId/lecture/:lectureId',
+    quizCourse: '/courses/:courseId/quiz/:quizId',
+    codeCourse: '/courses/:courseId/code/:codeId',
+    detailCourse: '/courses/:id',
+    updateFormBuilt: '/center/certificates/:id',
+    addFormBuilt: '/center/certificates',
+};

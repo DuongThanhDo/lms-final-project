@@ -1,0 +1,35 @@
+/* Sidebar chung */
+.fixed-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 64px;
+  height: 100vh;
+  background: #1d1e27;
+  transition: width 0.3s ease;
+  z-index: 40;
+}
+
+.custom-sidebar {
+  background-color: #1d1e27;
+}
+
+.custom-sidebar .ant-menu-item {
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.custom-sidebar .ant-menu-item:hover {
+  background-color: #1d8381 !important;
+  color: white !important;
+}
+
+.custom-sidebar .ant-menu-item-selected {
+  background-color: #1d8381 !important;
+  color: white !important;
+}
+
+.ant-layout-sider-trigger {
+  display: none !important;
+}
