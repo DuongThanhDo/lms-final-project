@@ -1,5 +1,4 @@
 # lms-final-project
-Project Build Website HealthHub
 
 [Document 020625 – Version 1.0.0]
 
